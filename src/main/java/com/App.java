@@ -2,16 +2,16 @@ package com;
 
 public class App {
     public static void main(String[] args) {
-        Mylist <String> arr=new Mylist<>();
-        arr.add("kokoo");
-        arr.add("ddddsa");
-        arr.add("dododo");
-        System.out.println(arr.get(1));
-        Mylist <Integer> arr1=new Mylist<>();
-        arr1.add(1);
-        arr1.add(2);
-        arr1.add(3);
-        System.out.println(arr1.get(1));
+        Mylist <String> stringMylist=new Mylist<>();
+        stringMylist.add("kokoo");
+        stringMylist.add("ddddsa");
+        stringMylist.add("dododo");
+        System.out.println(stringMylist.get(1));
+        Mylist <Integer> integerMylist=new Mylist<>();
+        integerMylist.add(1);
+        integerMylist.add(2);
+        integerMylist.add(3);
+        System.out.println(integerMylist.get(1));
 
     }
 
